@@ -1,0 +1,25 @@
+ALGORITHM Dot product
+VAR
+    V1: ARRAY_OF INTEGER[i];
+    V2: ARRAY_OF INTEGER[i];
+    ps: ARRAY_OF INTEGER[i];
+    i: INTEGER;
+
+BEGIN
+    write("donner la taille du V1");
+    read(i);
+    write("donner la taille du V2");
+    read(j);
+  PROCEDURE dot_product(i:INTEGER,V1:ARRAY_OF INTEGER[i],V2:ARRAY_OF INTEGER[i])
+  VAR
+    i:INTEGER;
+      
+  BEGIN
+  ps:=0;
+      FOR i FROM 0 TO n1 DO
+          ps = V1[i]*V2[i];
+          i=i+1;
+          ps=ps+ps[i];
+      END_FOR1
+  END
+END
